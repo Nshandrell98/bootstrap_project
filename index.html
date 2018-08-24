@@ -6,22 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap Project</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-   <div class="container">
-       <div class="row">
-           <div class="top-bar col-sm-6">
-                <ul>
-                    <li><a href="#">My Wishlist (0)</a></li>
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Shopping cart</a></li>
-                    <li><a href="#">Checkout</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-6">
-                <p>Welcome visitor you can <a href="#">Login</a> or <a href="#">create an account</a></p>
+    <div class="outer-top-bar">
+        <div class="container">
+            <div class="top-bar row">
+                <div class=" col-sm-6">
+                    <ul>
+                        <li><a href="#">My Wishlist (0)</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Shopping Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+                    </ul>
+                </div>
+                <div class="welcome col-sm-6">
+                    <p>Welcome visitor you can <a href="#">Login</a> or <a href="#">create an account</a></p>
+                </div>
             </div>
         </div>
+    </div>
+    <div class="second-row container">
         <div class="row">
             <div class="logo col-sm-6">
                 <img src="images/logo.jpg" />
@@ -34,7 +39,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="third row">
             <div class="col-sm-6">
                 <ul>
                     <li><a href="#">FASHION</a></li>
@@ -49,7 +54,7 @@
                 <form>
                     <input type="text" value="search.."/>
                     <input type="submit" value="Submit"/>
-                </form>
+                </form>                                                                                         
             </div>
         </div>
     </div>
@@ -67,19 +72,17 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="latest container">
         <div class="row">
             <div class="col-sm-9">
                 <h2>Latest</h2>
                 <p>Buy discount items from the latest collections of world brands.</p>
             </div>
-            <div class="col-sm-3">
-                <a href="#">&lt;</a>
+            <div class="gl-signs col-sm-3">
+                <a href="# .">&lt;</a>
                 <a href="#">&gt;</a>
             </div>
         </div>
-    </div>
-    <div class="container">
         <div class="row">
             <div class="col-sm-3">
                 <img src="images/bracelet.jpg"/>
@@ -103,7 +106,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="wtv container">
         <div class="row">
             <div class="col-sm-6">
                 <h2>Welcone to Venedor</h2>
@@ -117,7 +120,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="bestsellers container">
         <div class="row">
             <div class="col-sm-9">
                 <h2>Bestsellers</h2>
@@ -151,7 +154,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="manufacturers container">
         <div class="row">
             <div class="col-sm-9">
                 <h2>Manufacturers</h2>
@@ -182,7 +185,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="email container">
         <div class="row">
             <div class="col-sm-6">
                 <h3>SIGN UP TO RECIEVE THE LATEST FASHION NEWS</h3>
@@ -195,45 +198,83 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <h4>MY ACCOUNT</h4>
-                <ul>
-                    <li><a href="#">My Account</a></li>
-                    <li><a href="#">Personal info</a></li>
-                    <li><a href="#">Addresses</a></li>
-                    <li><a href="#">Discount</a></li>
-                    <li><a href="#">Order History</a></li>
-                    <li><a href="#">Your Vouchers</a></li>
-                </ul>
+    <div class="outer-bottom">
+        <div class="bottom container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h4>MY ACCOUNT</h4>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Personal info</a></li>
+                        <li><a href="#">Addresses</a></li>
+                        <li><a href="#">Discount</a></li>
+                        <li><a href="#">Order History</a></li>
+                        <li><a href="#">Your Vouchers</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4>INFORMATION</h4>
+                    <ul>
+                        <li><a href="#">New Products</a></li>
+                        <li><a href="#">Top Sellers</a></li>
+                        <li><a href="#">Specials</a></li>
+                        <li><a href="#">Manufacturers</a></li>
+                        <li><a href="#">Suppliers</a></li>
+                        <li><a href="#">Our Stores</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4>FROM TWITTER</h4>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eaque molestias dolorem expedita odit ea non dolores itaque eos sunt?</p>
+                    <a href="http://somewebsite.com">Somewebsite.com</a>
+                    <p>about 1 hour ago</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eaque molestias dolorem expedita odit ea non dolores itaque eos sunt?</p>
+                    <a href="http://somewebsite.com">Somewebsite.com</a>
+                    <p>about 1 hour ago</p>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Facebook</h4>
+                    <p>23 prople liked <a href="#">PromoKit</a></p>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <img src="images/anna.jpg"/>
+                            <p>ANNA</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="images/tom.jpg"/>
+                            <p>TOM</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="images/antuan.jpg"/>
+                            <p>ANTUAN</p>
+                        </div>
+                    <div class="clearfix"></div>
+                        <div class="col-sm-4">
+                            <img src="images/milla.jpg"/>
+                            <p>MILLA</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="images/justine.jpg"/>
+                            <p>JUSTINE</p>
+                        </div>
+                        <div class="col-sm-4">
+                            <img src="images/maria.jpg"/>
+                            <p>MARIA</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-sm-3">
-                <h4>INFORMATION</h4>
-                <ul>
-                    <li><a href="#">New Products</a></li>
-                    <li><a href="#">Top Sellers</a></li>
-                    <li><a href="#">Specials</a></li>
-                    <li><a href="#">Manufacturers</a></li>
-                    <li><a href="#">Suppliers</a></li>
-                    <li><a href="#">Our Stores</a></li>
-                </ul>
-            </div>
-            <div class="col-sm-3">
-                <h4>FROM TWITTER</h4>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eaque molestias dolorem expedita odit ea non dolores itaque eos sunt?</p>
-                <a href="http://somewebsite.com">Somewebsite.com</a>
-                <p>about 1 hour ago</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas, eaque molestias dolorem expedita odit ea non dolores itaque eos sunt?</p>
-                <a href="http://somewebsite.com">Somewebsite.com</a>
-                <p>about 1 hour ago</p>
-            </div>
-            <div class="col-sm-3">
-                <h4>Facebook</h4>
-                <p>23 prople liked <a href="#">PromoKit</a></p>
-                <img src="images/"
+            <hr/>
+            <div class="copyright row">
+                <div class="col-sm-6">
+                    <img src="images/bottom-buttons.jpg"/>
+                </div>
+                <div class="col-sm-6">
+                    <p>@ 2012 Powered by WooCommerce .All Rights Reserved</p>
+                </div>
             </div>
         </div>
     </div>
+
 </body>
 </html>

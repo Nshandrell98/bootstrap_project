@@ -1,0 +1,24 @@
+.outer-top-bar {
+    background-color: #dddedc;
+}
+.top-bar {
+    background-color: #dddedc;
+    color: gray;
+}
+.top-bar ul li{
+    display: inline;
+}
+.logo {
+    margin-top: 20px
+}
+body {
+    color: #424a4a;
+}
+
+.third ul li{
+    display: inline;
+}
+.outer-bottom{
+    background-color: #424a4a;
+    color: #ffffff;
+}
