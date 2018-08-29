@@ -1,12 +1,21 @@
 .outer-top-bar {
-    background-color: #dddedc;
+    background-color: #f5f5f5;
+    border-top: 3px solid #14c0c9;
+    margin-bottom: 10px;
 }
 .top-bar {
-    background-color: #dddedc;
+    background-color: #f5f5f5;
     color: gray;
 }
 .top-bar ul li{
     display: inline;
+    margin: 10px;
+}
+.second-row ul li{
+    display: inline;
+    padding: 5px;
+    margin-top: 20px;
+ 
 }
 .logo {
     margin-top: 20px
@@ -15,10 +24,108 @@ body {
     color: #424a4a;
 }
 
+
 .third ul li{
     display: inline;
+    padding: 5px;
+    color: #424e42
+}
+.third a {
+    color: rgb(68, 68, 68);
+}
+.third a:hover{
+    color: #14c0c9;
+}
+.clothes a:hover{
+    background-color: #14c0c9;
+
+}
+.bestsellers .gl-signs a{
+    background-color: #c6c7c7;
+    padding:10px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.latest .gl-signs a{
+    background-color: #c6c7c7;
+    padding:10px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.gl-signs a{
+    background-color: #c6c7c7;
+    padding:10px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.gl-signs a:hover{
+    background-color: #14c0c9;
+}
+.manufacturers {
+    margin-top: 20px;
+}
+
+.submit{
+    background-color: #424a4a;
+    padding:5px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.email{
+    border: 3px solid yellow;
+}
+.outer-email {
+    background-color: #dfdfdf;
+    margin-top: 20px;
+}
+.bottom  ul li a {
+    color: #ffffff;
+}
+.bottom a:hover{
+    color: #14c0c9;
 }
 .outer-bottom{
     background-color: #424a4a;
     color: #ffffff;
+}
+.latest{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.latest  a{
+    background-color: #424a4a;
+    padding:10px;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.latest h2 {
+    border-left: 2px solid  #14c0c9;
+}
+.bestsellers h2 {
+    border-left: 2px solid  #14c0c9;
+}
+.bestsellers{
+    margin-top: 20px;
+}
+.wtv h2{
+    border-left: 2px solid  #14c0c9;
+}
+.manufacturers h2{
+    border-left: 2px solid  #14c0c9;
+}
+.bestsellers a{
+    background-color: #424a4a;
+    padding:10px;
+    color: #ffffff;
+ }
+@media screen and (max-width: 960px) {
+    body {
+        background-color: #fca4d8;
+
+    }
+}
+@media screen and (max-width: 800px) {
+    body {
+        background-color: #14c0c9;
+    }
 }
